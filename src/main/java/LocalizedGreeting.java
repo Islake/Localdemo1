@@ -10,11 +10,18 @@ public class LocalizedGreeting {
         System.out.println("1. English");
         System.out.println("2. French");
         System.out.println("3. Spanish");
-        System.out.println("4. Persian");
+        System.out.println("4. Farsi");
         System.out.println("5. Japanese");
 
         Scanner scanner = new Scanner(System.in);
-        int choice = scanner.nextInt();
+        int choice = -1;
+
+        // Check if there is an integer input available
+        if (scanner.hasNextInt()) {
+            choice = scanner.nextInt();
+        } else {
+            System.out.println("Invalid input. Defaulting to English.");
+        }
 
         // Set the locale based on user's choice
         Locale locale;
@@ -49,6 +56,3 @@ public class LocalizedGreeting {
         scanner.close();
     }
 }
-
-
-

@@ -10,7 +10,14 @@
       <file value="file://$PROJECT_DIR$/src/main/resources/Messages_es_ES.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/Messages_fa_IR.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" />
-      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_jp_JP.properties" />
+      <base-name>Messages</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_es_ES.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_fa_IR.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Messages_ja_JP.properties" />
       <base-name>Messages</base-name>
     </custom-resource-bundle>
   </component>
